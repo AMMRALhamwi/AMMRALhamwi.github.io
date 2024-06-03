@@ -123,6 +123,13 @@ header .logo img{
     height: 40px;
     display: none;
 }
+header .logo {
+    text-decoration: none;
+    color: #FF5722;
+    font-weight: bold;
+    text-align: center;
+    font-size: 23px;
+}
 header nav{
     flex: 1;
     /*    flex: 1; makes the item takes all the avilabe space  */
@@ -245,6 +252,7 @@ simply because there is no space */
 @media (max-width:767px){
     .landing .text{
         width: 100%;
+        right: 0px;
     }
     .landing .text .content{
         max-width: 100%;
